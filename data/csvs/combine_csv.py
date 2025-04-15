@@ -24,6 +24,6 @@ features = stocks_full[[
 ]]
 
 # Save final version to CSV
-features.to_csv("ml_stocks", index=False)
+features.to_csv("ml_stocks.csv", index=False)
 
 print("Saved to ml_stocks.csv ✅")
